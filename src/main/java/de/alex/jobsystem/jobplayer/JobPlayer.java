@@ -4,7 +4,7 @@ import org.bukkit.entity.Player;
 
 public class JobPlayer {
 
-    private long lastPickUp;
+    private long lastPickUp = 0;
     private int currentJobCoins = 0;
     private int playerCoins = 0;
     private Player player;

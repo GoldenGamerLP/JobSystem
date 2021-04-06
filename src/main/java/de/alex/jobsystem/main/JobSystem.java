@@ -14,7 +14,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 public class JobSystem extends JavaPlugin {
 
     private static JobSystem jobSystem;
-    private final NamespacedKey key = new NamespacedKey(this, "state");
+    private final NamespacedKey key = new NamespacedKey(this, "job");
     private JobPlayerManager jobPlayerManager;
     private JobSelectorInventory jobSelectorInventory;
     private JobTreatInventory jobTreatInventory;
