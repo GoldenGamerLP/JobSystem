@@ -1,0 +1,10 @@
+main: de.alex.jobsystem.main.JobSystem
+name: JobSystem
+author: Alex
+version: 1.0
+api-version: 1.16
+commands:
+  jobs:
+    description: Select a Job
+  lohn:
+    description: Get your payback
